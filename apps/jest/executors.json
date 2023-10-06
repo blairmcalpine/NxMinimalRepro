@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "jest": {
+      "implementation": "./src/executors/jest/jestExecutor.ts",
+      "schema": "./src/executors/jest/schema.json",
+      "description": "jest executor"
+    }
+  }
+}

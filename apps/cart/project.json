@@ -93,7 +93,7 @@
       "outputs": ["{options.outputFile}"]
     },
     "test": {
-      "executor": "@nx/jest:jest",
+      "executor": "@nx-example/jest:jest",
       "options": {
         "jestConfig": "apps/cart/jest.config.ts",
         "passWithNoTests": true
